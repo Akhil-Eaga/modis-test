@@ -14,6 +14,7 @@ The EC2 instances provisioned are free-tier eligible. Hence running these instan
 1) Terraform CLI should be installed and configured on your local machine
 2) AWS CLI should be installed and configured on your local machine
 2) Access key and Secret key for your AWS account should be configured in your local machine
+3) IAM user credentials with access to the aforementioned resources is necessary
 
 ---
 ## Instructions to run the Terraform code:
