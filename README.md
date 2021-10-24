@@ -1,4 +1,4 @@
-# Terraform 
+# Terraform Technical Test
 ---
 
 Author: [Akhil Eaga](https://github.com/Akhil-Eaga)  
