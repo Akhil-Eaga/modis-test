@@ -34,15 +34,16 @@ The EC2 instances provisioned are free-tier eligible. Hence running these instan
 1) Even after the DNS name is printed on the console, for the website to showup you might have to wait a few seconds
 2) Use `http` to load the website if your browser defaults to `https`
 3) If not required, make sure to destroy the provisioned resources to avoid undesired bills
+4) Terraform coding conventions are followed where possible
 
 ---
 
 ## A glimpse of technical details:
 __AWS instance type used:__ Ubuntu Server 20.04 LTS (HVM), SSD Volume Type - ami-0567f647e75c7bc05 (64-bit x86)  
-__Region used:__ ap-southeast-2 (Sydney)  
-__Instance type:__ t2.micro  
+__AWS Region used:__ ap-southeast-2 (Sydney)  
+__EC2 Instance type:__ t2.micro  
 __Web server used:__  Apache  
-__Availablity Zones used:__ All 3 within the region are used  
+__Availability Zones used:__ All 3 within the region are used  
 __VPC:__ AWS Default VPC is adopted  
 __Subnets:__ AWS Default Subnets are adopted  
 
